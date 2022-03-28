@@ -4,9 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --exec node server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "dotenv": "^16.0.0",
+    "graphql": "^15.4.0 "
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
